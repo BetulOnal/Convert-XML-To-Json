@@ -1,0 +1,60 @@
+body{
+    background-color: #235784;
+    color:#e3e3e3;
+    
+}
+
+h1{
+font-size: 40px;
+text-align: center;
+}
+
+h3{
+    font-size: 30px;
+    color: #00204a;
+}
+
+.container{
+    position: relative;
+}
+
+button{
+  width: 200px;
+  height: 40px;
+  background-color:#e3e3e3;
+  font-size: 16px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #73b1c1;
+  border: 3px solid #233142;
+  border-radius: 12px;
+ 
+ 
+}
+
+.but{
+    text-align: center;
+    top: 300px;
+    padding-top: 50px;
+}
+
+textarea{
+    width: 400px;
+    height: 400px;
+    border: 3px solid #081f37;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.text1{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+.text2{
+    position: absolute;
+    top: 200px;
+    right: 200px;
+}

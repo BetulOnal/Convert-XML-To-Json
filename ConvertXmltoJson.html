@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <div class="container">
+      <h1> XML TO JSON</h1>
+    <div class="but">
+        <button id="but1" onclick="xmlToJson()"> XML ==> JSON </button>
+        <button id="but2" onclick="downloadJson()"> Download JSON </button>
+    </div>  
+    <div class="text1">
+        <h3> XML:</h3>
+        <textarea id="xmlText", cols="60", rows="20"></textarea>
+    </div>
+    <div class="text2" >        
+        <h3>JSON:</h3>
+        <textarea id="jsonText" cols="60" rows="20"></textarea>
+    </div>
+    </div>
+
+
+<script src="convertXmltToJson.js"> </script>    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/x2js/1.2.0/xml2json.min.js"></script>
+</body>
+</html>
