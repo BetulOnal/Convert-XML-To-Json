@@ -14,5 +14,4 @@ function downloadJson(){
     document.body.appendChild(anchor);
     anchor.click();
     anchor.remove();
-
 }

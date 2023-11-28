@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+<div class="container">
+   <div class="row">
+    <h1> XML TO JSON</h1>
+    <div>
+        <h4 id="currentDate"> DATE:</h4>
+        <p style="font-size:25px;font-style: italic;">Hello</p> 
+    </div>
+   </div>
+   <div class="row">
+    <form  id='form'>
+        <input class="btn btn-light" type="file" id="file"><br>
+        <button class="btn btn-dark" type="submit">Upload File </button>
+    </form>
+   </div>
+   <div class="row">
+    <div class="col-5">
+        <div class="text1">
+            <h3> XML:</h3>
+            <textarea id="xmlText" cols="60" rows="20"></textarea>
+        </div>
+    </div>
+    <div class="box1 col-2">
+        <button id="but1" class="btn btn-secondary " onclick="xmlToJson()"> XML ==> JSON </button>
+        <button id="but3"  class="btn btn-secondary " onclick="jsonToXml()"> JSON==> XML </button>
+    </div>
+    <div class="col-5">
+        <h3>JSON:</h3>
+        <textarea id="jsonText" cols="60" rows="20"></textarea>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-7">
+        <button  class="btn btn-success" id="but4" onclick="downloadXml()"> Download XML </button>
+    </div>
+    <div class="col-4 ">
+        <button  class="btn btn-success " id="but2" onclick="downloadJson()"> Download JSON </button>
+        
+    </div>
+
+
+</div>
+    <script src="sandbox.js"> </script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/x2js/1.2.0/xml2json.js" > </script>
+</body>
+</html>
